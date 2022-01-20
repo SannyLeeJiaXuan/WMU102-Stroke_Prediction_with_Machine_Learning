@@ -1,1 +1,164 @@
-<mxfile host="app.diagrams.net" modified="2022-01-20T00:39:57.732Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" version="16.4.0" etag="_UhGNS4kfIAd-dOZeyA4" type="github"><diagram id="ooaYrUF1-5S8n0HTppZp">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-01-20T00:46:52.728Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="BO__QLPHpYxfxXUEjFkT" version="16.4.0" type="github">
+  <diagram id="ooaYrUF1-5S8n0HTppZp" name="Page-1">
+    <mxGraphModel dx="1673" dy="865" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <UserObject label="Topic: Stroke Prediction with Machine Learning" lucidchartObjectId="8cnJhSX4lBXa" id="iClK4mFfYUVezQ7BmAFP-1">
+          <mxCell style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;rounded=1;arcSize=50;fontSize=12;fontColor=default;fontStyle=1;spacing=3.8;verticalAlign=middle;strokeColor=#99d2f2;strokeOpacity=100;fillOpacity=100;fillColor=#c1e4f7;strokeWidth=2.3;" vertex="1" parent="1">
+            <mxGeometry x="455" y="40" width="210" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="COLAB Part 3: Data Set Organization" lucidchartObjectId="afnJjEzBT.UT" id="iClK4mFfYUVezQ7BmAFP-2">
+          <mxCell style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=12;fontColor=default;fontStyle=1;align=center;spacing=9;strokeColor=#b391b5;strokeOpacity=100;fillOpacity=100;rounded=1;absoluteArcSize=1;arcSize=9;fillColor=#d1bcd2;strokeWidth=2.3;" vertex="1" parent="1">
+            <mxGeometry x="455" y="145" width="210" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="3.1 Import Necessary Library" lucidchartObjectId="EfnJcRyTmGrh" id="iClK4mFfYUVezQ7BmAFP-3">
+          <mxCell style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=12;fontColor=default;fontStyle=1;align=center;spacing=9;strokeColor=#fcc438;strokeOpacity=100;fillOpacity=100;rounded=1;absoluteArcSize=1;arcSize=9;fillColor=#ffeca9;strokeWidth=2.3;" vertex="1" parent="1">
+            <mxGeometry x="455" y="250" width="210" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;div style=&quot;display: flex; justify-content: center; text-align: center; align-items: baseline; font-size: 0; line-height: 1.25;margin-top: -2px;&quot;&gt;&lt;span&gt;&lt;span style=&quot;font-size:12px;color:#000000;&quot;&gt;- import libraries such as numpy, pandas, seaborn&#xa;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;display: flex; justify-content: center; text-align: center; align-items: baseline; font-size: 0; line-height: 1.25;margin-top: -2px;&quot;&gt;&lt;span&gt;&lt;span style=&quot;font-size:12px;color:#000000;&quot;&gt;- upload dataset&lt;/span&gt;&lt;span style=&quot;font-size:16px;color:#000000;&quot;&gt;&#xa;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;display: flex; justify-content: center; text-align: center; align-items: baseline; font-size: 0; line-height: 1.25;margin-top: -2px;&quot;&gt;&lt;span&gt;&lt;span style=&quot;font-size:13px;color:#000000;&quot;&gt;&lt;span style=&quot;font-size:12px;color:#000000;&quot;&gt;&#xa;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;display: flex; justify-content: center; text-align: center; align-items: baseline; font-size: 0; line-height: 1.25;margin-top: -2px;&quot;&gt;&lt;span&gt;&lt;span style=&quot;font-size:12px;color:#000000;&quot;&gt;&#xa;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;display: flex; justify-content: center; text-align: center; align-items: baseline; font-size: 0; line-height: 1.25;margin-top: -2px;&quot;&gt;&lt;span&gt;&lt;span style=&quot;font-size:12px;color:#000000;&quot;&gt;(dataset file already upload in the google drive for group access)&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;" lucidchartObjectId="ognJABQhz4zC" id="iClK4mFfYUVezQ7BmAFP-4">
+          <mxCell style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=13;spacing=9;strokeColor=#fcc438;strokeOpacity=100;fillOpacity=100;rounded=1;absoluteArcSize=1;arcSize=9;fillColor=#ffeca9;strokeWidth=2.3;" vertex="1" parent="1">
+            <mxGeometry x="80" y="175" width="270" height="165" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="3.2 Read in and Explore Data" lucidchartObjectId="ghnJDiq96EXg" id="iClK4mFfYUVezQ7BmAFP-5">
+          <mxCell style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=12;fontColor=default;fontStyle=1;align=center;spacing=9;strokeColor=#a3d977;strokeOpacity=100;fillOpacity=100;rounded=1;absoluteArcSize=1;arcSize=9;fillColor=#c7e8ac;strokeWidth=2.3;" vertex="1" parent="1">
+            <mxGeometry x="455" y="355" width="210" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;div style=&quot;display: flex; justify-content: center; text-align: center; align-items: baseline; font-size: 0; line-height: 1.25;margin-top: -2px;&quot;&gt;&lt;span&gt;&lt;span style=&quot;font-size:12px;color:#000000;&quot;&gt;- read in to show the dataset&lt;/span&gt;&lt;span style=&quot;font-size:16px;color:#000000;&quot;&gt;&#xa;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;display: flex; justify-content: center; text-align: center; align-items: baseline; font-size: 0; line-height: 1.25;margin-top: -2px;&quot;&gt;&lt;span&gt;&lt;span style=&quot;font-size:13px;color:#000000;&quot;&gt;&lt;span style=&quot;font-size:12px;color:#000000;&quot;&gt;- author&#39;s clarification for the variables in the dataset&lt;/span&gt;&lt;span style=&quot;font-size:16px;color:#000000;&quot;&gt;&#xa;&lt;/span&gt;&lt;span style=&quot;font-size:12px;color:#000000;&quot;&gt;- using describe to have a general statistical view for the dataset&lt;/span&gt;&lt;span style=&quot;font-size:16px;color:#000000;&quot;&gt;&#xa;&#xa;&lt;/span&gt;&lt;span style=&quot;font-size:12px;color:#000000;font-weight: bold;text-decoration: underline;&quot;&gt;3.2.2 Data Read in&lt;/span&gt;&lt;span style=&quot;font-size:16px;color:#000000;&quot;&gt;&#xa;&lt;/span&gt;&lt;span style=&quot;font-size:12px;color:#000000;&quot;&gt;- Generally, the whole data lead to non-stroke model.&lt;/span&gt;&lt;span style=&quot;font-size:16px;color:#000000;&quot;&gt;&#xa;&lt;/span&gt;&lt;span style=&quot;font-size:12px;color:#000000;&quot;&gt;&lt;span style=&quot;font-size:12px;color:#000000;&quot;&gt;- So, actions need to be taken in&lt;/span&gt;&lt;span style=&quot;font-size:12px;color:#000000;font-weight: bold;&quot;&gt;Data Analysis and Data Cleaning&#xa;&lt;/span&gt;&lt;span style=&quot;font-size:16px;color:#000000;&quot;&gt;&#xa;&lt;/span&gt;&lt;span style=&quot;font-size:12px;color:#000000;font-weight: bold;text-decoration: underline;&quot;&gt;3.2.3 Data Exploration&lt;/span&gt;&lt;span style=&quot;font-size:16px;color:#000000;&quot;&gt;&#xa;&lt;/span&gt;&lt;span style=&quot;font-size:12px;color:#000000;&quot;&gt;- General view of the dataset variables and compared with Malaysia context.&lt;/span&gt;&lt;span style=&quot;font-size:16px;color:#000000;&quot;&gt;&#xa;&lt;/span&gt;&lt;span style=&quot;font-size:12px;color:#000000;&quot;&gt;- put on general view for stroke happening condition&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;" lucidchartObjectId="_hnJP__V36nc" id="iClK4mFfYUVezQ7BmAFP-6">
+          <mxCell style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=13;spacing=9;strokeColor=#a3d977;strokeOpacity=100;fillOpacity=100;rounded=1;absoluteArcSize=1;arcSize=9;fillColor=#c7e8ac;strokeWidth=2.3;" vertex="1" parent="1">
+            <mxGeometry x="755" y="130" width="315" height="280" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="" lucidchartObjectId="CinJOBCGQvyN" id="iClK4mFfYUVezQ7BmAFP-7">
+          <mxCell style="html=1;jettySize=18;whiteSpace=wrap;fontSize=13;strokeColor=#5E5E5E;strokeWidth=1.5;rounded=1;arcSize=12;edgeStyle=orthogonalEdgeStyle;startArrow=none;endArrow=block;endFill=1;exitX=0.5;exitY=1.019;exitPerimeter=0;entryX=0.5;entryY=-0.019;entryPerimeter=0;" edge="1" parent="1" source="iClK4mFfYUVezQ7BmAFP-1" target="iClK4mFfYUVezQ7BmAFP-2">
+            <mxGeometry width="100" height="100" relative="1" as="geometry">
+              <Array as="points" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="" lucidchartObjectId="EinJEjpip-ox" id="iClK4mFfYUVezQ7BmAFP-8">
+          <mxCell style="html=1;jettySize=18;whiteSpace=wrap;fontSize=13;strokeColor=#5E5E5E;strokeWidth=1.5;rounded=1;arcSize=12;edgeStyle=orthogonalEdgeStyle;startArrow=none;endArrow=block;endFill=1;exitX=0.5;exitY=1.019;exitPerimeter=0;entryX=0.5;entryY=-0.019;entryPerimeter=0;" edge="1" parent="1" source="iClK4mFfYUVezQ7BmAFP-2" target="iClK4mFfYUVezQ7BmAFP-3">
+            <mxGeometry width="100" height="100" relative="1" as="geometry">
+              <Array as="points" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="" lucidchartObjectId="GinJkE8Fjknz" id="iClK4mFfYUVezQ7BmAFP-9">
+          <mxCell style="html=1;jettySize=18;whiteSpace=wrap;fontSize=13;strokeColor=#5E5E5E;strokeWidth=1.5;rounded=1;arcSize=12;edgeStyle=orthogonalEdgeStyle;startArrow=none;endArrow=block;endFill=1;exitX=0.5;exitY=1.019;exitPerimeter=0;entryX=0.5;entryY=-0.019;entryPerimeter=0;" edge="1" parent="1" source="iClK4mFfYUVezQ7BmAFP-3" target="iClK4mFfYUVezQ7BmAFP-5">
+            <mxGeometry width="100" height="100" relative="1" as="geometry">
+              <Array as="points" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="" lucidchartObjectId="IinJVPl86oxC" id="iClK4mFfYUVezQ7BmAFP-10">
+          <mxCell style="html=1;jettySize=18;whiteSpace=wrap;fontSize=13;strokeColor=#5E5E5E;strokeWidth=1.5;rounded=1;arcSize=12;edgeStyle=orthogonalEdgeStyle;startArrow=none;endArrow=block;endFill=1;exitX=-0.005;exitY=0.5;exitPerimeter=0;entryX=1.004;entryY=0.5;entryPerimeter=0;" edge="1" parent="1" source="iClK4mFfYUVezQ7BmAFP-3" target="iClK4mFfYUVezQ7BmAFP-4">
+            <mxGeometry width="100" height="100" relative="1" as="geometry">
+              <Array as="points" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="" lucidchartObjectId="LinJieW_H1Wr" id="iClK4mFfYUVezQ7BmAFP-11">
+          <mxCell style="html=1;jettySize=18;whiteSpace=wrap;fontSize=13;strokeColor=#5E5E5E;strokeWidth=1.5;rounded=1;arcSize=12;edgeStyle=orthogonalEdgeStyle;startArrow=none;endArrow=block;endFill=1;exitX=1.005;exitY=0.5;exitPerimeter=0;entryX=-0.004;entryY=0.5;entryPerimeter=0;" edge="1" parent="1" source="iClK4mFfYUVezQ7BmAFP-5" target="iClK4mFfYUVezQ7BmAFP-6">
+            <mxGeometry width="100" height="100" relative="1" as="geometry">
+              <Array as="points" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="3.3 Data Analysis" lucidchartObjectId="QinJ2CU5VlnR" id="iClK4mFfYUVezQ7BmAFP-12">
+          <mxCell style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=12;fontColor=default;fontStyle=1;align=center;spacing=9;strokeColor=#ff8f80;strokeOpacity=100;fillOpacity=100;rounded=1;absoluteArcSize=1;arcSize=9;fillColor=#ffbbb1;strokeWidth=2.3;" vertex="1" parent="1">
+            <mxGeometry x="455" y="460" width="210" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;div style=&quot;display: flex; justify-content: center; text-align: center; align-items: baseline; font-size: 0; line-height: 1.25;margin-top: -2px;&quot;&gt;&lt;span&gt;&lt;span style=&quot;font-size:12px;color:#000000;&quot;&gt;- analyzing the type of data we have&lt;/span&gt;&lt;span style=&quot;font-size:16px;color:#000000;&quot;&gt;&#xa;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;display: flex; justify-content: center; text-align: center; align-items: baseline; font-size: 0; line-height: 1.25;margin-top: -2px;&quot;&gt;&lt;span&gt;&lt;span style=&quot;font-size:13px;color:#000000;&quot;&gt;&lt;span style=&quot;font-size:12px;color:#000000;&quot;&gt;- do some general filtration on the data&lt;/span&gt;&lt;span style=&quot;font-size:16px;color:#000000;&quot;&gt;&#xa;&#xa;&lt;/span&gt;&lt;span style=&quot;font-size:12px;color:#000000;&quot;&gt;1. Dropping the null value data row&lt;/span&gt;&lt;span style=&quot;font-size:16px;color:#000000;&quot;&gt;&#xa;&lt;/span&gt;&lt;span style=&quot;font-size:12px;color:#000000;&quot;&gt;&lt;span style=&quot;font-size:12px;color:#000000;&quot;&gt;2. Dropping non-related column (Need to provide justification &amp;&lt;/span&gt;&lt;span style=&quot;font-size:12px;color:#000000;font-weight: bold;&quot;&gt;visualization&lt;/span&gt;will be done later after data cleaning) &#xa;3. Check iif there is null value for the remaining column &amp; Propose motion / assumption to that&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;" lucidchartObjectId="mjnJ2bgbyIi7" id="iClK4mFfYUVezQ7BmAFP-13">
+          <mxCell style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=13;spacing=9;strokeColor=#ff8f80;strokeOpacity=100;fillOpacity=100;rounded=1;absoluteArcSize=1;arcSize=9;fillColor=#ffbbb1;strokeWidth=2.3;" vertex="1" parent="1">
+            <mxGeometry x="80" y="385" width="270" height="194" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="3.4 Data Cleaning" lucidchartObjectId="CknJSseMSpX-" id="iClK4mFfYUVezQ7BmAFP-14">
+          <mxCell style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=12;fontColor=default;fontStyle=1;align=center;spacing=9;strokeColor=#19967d;strokeOpacity=100;fillOpacity=100;rounded=1;absoluteArcSize=1;arcSize=9;fillColor=#99d5ca;strokeWidth=2.3;" vertex="1" parent="1">
+            <mxGeometry x="455" y="565" width="210" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;div style=&quot;display: flex ; justify-content: center ; text-align: center ; align-items: baseline ; font-size: 0 ; line-height: 1.25 ; margin-top: -2px&quot;&gt;&lt;span&gt;&lt;span style=&quot;font-size: 12px ; color: #000000&quot;&gt;- clean the data / run the code to clean data listed in data analysis&#xa;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;display: flex ; justify-content: center ; text-align: center ; align-items: baseline ; font-size: 0 ; line-height: 1.25 ; margin-top: -2px&quot;&gt;&lt;span&gt;&lt;span style=&quot;font-size: 12px ; color: #000000&quot;&gt;&lt;span style=&quot;font-size: 12px ; color: #000000&quot;&gt;- check if there is other things needed for cleaning&#xa;&#xa;1. Null vale&#xa;2. Drop irrelevant column&#xa;&lt;/span&gt;&lt;a href=&quot;http://3.Replace&quot;&gt;&lt;span style=&quot;font-size: 12px ; color: #000000&quot;&gt;3.  Replace&lt;/span&gt;&lt;/a&gt; BMI zero value with its mean / Directly drop the row with zero (see if there&#39;s a lot)&#xa;4. &#xa;&#xa;Generally, if we drop irrelevant column in 2, then we left only 5 columns for data cleaning. &#xa;&#xa;Ref: Link beside&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;" lucidchartObjectId="hlnJ5d-JTx6r" id="iClK4mFfYUVezQ7BmAFP-15">
+          <mxCell style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=13;spacing=9;strokeColor=#19967d;strokeOpacity=100;fillOpacity=100;rounded=1;absoluteArcSize=1;arcSize=9;fillColor=#99d5ca;strokeWidth=2.3;" vertex="1" parent="1">
+            <mxGeometry x="755" y="460" width="315" height="240" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="3.5 Data Visualization" lucidchartObjectId="rnnJKar176Yp" id="iClK4mFfYUVezQ7BmAFP-16">
+          <mxCell style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=12;fontColor=default;fontStyle=1;align=center;spacing=9;strokeColor=#de5f85;strokeOpacity=100;fillOpacity=100;rounded=1;absoluteArcSize=1;arcSize=9;fillColor=#f5b5c8;strokeWidth=2.3;" vertex="1" parent="1">
+            <mxGeometry x="455" y="670" width="210" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="" lucidchartObjectId="vnnJ.1UeR3P-" id="iClK4mFfYUVezQ7BmAFP-17">
+          <mxCell style="html=1;jettySize=18;whiteSpace=wrap;fontSize=13;strokeColor=#5E5E5E;strokeWidth=1.5;rounded=1;arcSize=12;edgeStyle=orthogonalEdgeStyle;startArrow=none;endArrow=block;endFill=1;exitX=0.5;exitY=1.019;exitPerimeter=0;entryX=0.5;entryY=-0.019;entryPerimeter=0;" edge="1" parent="1" source="iClK4mFfYUVezQ7BmAFP-5" target="iClK4mFfYUVezQ7BmAFP-12">
+            <mxGeometry width="100" height="100" relative="1" as="geometry">
+              <Array as="points" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="" lucidchartObjectId="xnnJnxboFc9v" id="iClK4mFfYUVezQ7BmAFP-18">
+          <mxCell style="html=1;jettySize=18;whiteSpace=wrap;fontSize=13;strokeColor=#5E5E5E;strokeWidth=1.5;rounded=1;arcSize=12;edgeStyle=orthogonalEdgeStyle;startArrow=none;endArrow=block;endFill=1;exitX=0.5;exitY=1.019;exitPerimeter=0;entryX=0.5;entryY=-0.019;entryPerimeter=0;" edge="1" parent="1" source="iClK4mFfYUVezQ7BmAFP-12" target="iClK4mFfYUVezQ7BmAFP-14">
+            <mxGeometry width="100" height="100" relative="1" as="geometry">
+              <Array as="points" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="" lucidchartObjectId="znnJT7k246MD" id="iClK4mFfYUVezQ7BmAFP-19">
+          <mxCell style="html=1;jettySize=18;whiteSpace=wrap;fontSize=13;strokeColor=#5E5E5E;strokeWidth=1.5;rounded=1;arcSize=12;edgeStyle=orthogonalEdgeStyle;startArrow=none;endArrow=block;endFill=1;exitX=0.5;exitY=1.019;exitPerimeter=0;entryX=0.5;entryY=-0.019;entryPerimeter=0;" edge="1" parent="1" source="iClK4mFfYUVezQ7BmAFP-14" target="iClK4mFfYUVezQ7BmAFP-16">
+            <mxGeometry width="100" height="100" relative="1" as="geometry">
+              <Array as="points" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="" lucidchartObjectId="QnnJbKbmpCjj" id="iClK4mFfYUVezQ7BmAFP-20">
+          <mxCell style="html=1;jettySize=18;whiteSpace=wrap;fontSize=13;strokeColor=#5E5E5E;strokeWidth=1.5;rounded=1;arcSize=12;edgeStyle=orthogonalEdgeStyle;startArrow=none;endArrow=block;endFill=1;exitX=-0.005;exitY=0.5;exitPerimeter=0;entryX=1.004;entryY=0.5;entryPerimeter=0;" edge="1" parent="1" source="iClK4mFfYUVezQ7BmAFP-12" target="iClK4mFfYUVezQ7BmAFP-13">
+            <mxGeometry width="100" height="100" relative="1" as="geometry">
+              <Array as="points" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="" lucidchartObjectId="TnnJLPU903XG" id="iClK4mFfYUVezQ7BmAFP-21">
+          <mxCell style="html=1;jettySize=18;whiteSpace=wrap;fontSize=13;strokeColor=#5E5E5E;strokeWidth=1.5;rounded=1;arcSize=12;edgeStyle=orthogonalEdgeStyle;startArrow=none;endArrow=block;endFill=1;exitX=1.005;exitY=0.5;exitPerimeter=0;entryX=-0.004;entryY=0.5;entryPerimeter=0;" edge="1" parent="1" source="iClK4mFfYUVezQ7BmAFP-14" target="iClK4mFfYUVezQ7BmAFP-15">
+            <mxGeometry width="100" height="100" relative="1" as="geometry">
+              <Array as="points" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;div style=&quot;display: flex; justify-content: center; text-align: center; align-items: baseline; font-size: 0; line-height: 1.25;margin-top: -2px;&quot;&gt;&lt;span&gt;&lt;span style=&quot;font-size:12px;color:#000000;font-weight: bold;&quot;&gt;3.5 Data Visualization&#xa;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;display: flex; justify-content: center; text-align: center; align-items: baseline; font-size: 0; line-height: 1.25;margin-top: -2px;&quot;&gt;&lt;span&gt;&lt;span style=&quot;font-size:12px;color:#000000;&quot;&gt;&lt;span style=&quot;font-size:12px;color:#000000;&quot;&gt;- Prediction made to analyse if there is the need to further cleaning / process the dataset&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;" lucidchartObjectId="sonJXv4HvkoY" id="iClK4mFfYUVezQ7BmAFP-22">
+          <mxCell style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=13;spacing=9;strokeColor=#de5f85;strokeOpacity=100;fillOpacity=100;rounded=1;absoluteArcSize=1;arcSize=9;fillColor=#f5b5c8;strokeWidth=2.3;" vertex="1" parent="1">
+            <mxGeometry x="80" y="640" width="270" height="120" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="" lucidchartObjectId="KonJFP81pF_y" id="iClK4mFfYUVezQ7BmAFP-23">
+          <mxCell style="html=1;jettySize=18;whiteSpace=wrap;fontSize=13;strokeColor=#5E5E5E;strokeWidth=1.5;rounded=1;arcSize=12;edgeStyle=orthogonalEdgeStyle;startArrow=none;endArrow=block;endFill=1;exitX=-0.005;exitY=0.5;exitPerimeter=0;entryX=1.004;entryY=0.5;entryPerimeter=0;" edge="1" parent="1" source="iClK4mFfYUVezQ7BmAFP-16" target="iClK4mFfYUVezQ7BmAFP-22">
+            <mxGeometry width="100" height="100" relative="1" as="geometry">
+              <Array as="points" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="" lucidchartObjectId="2AnJZeRHEsuE" id="iClK4mFfYUVezQ7BmAFP-24">
+          <mxCell style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=13;align=left;spacing=0;verticalAlign=top;strokeColor=#6f7681;strokeOpacity=100;rounded=1;absoluteArcSize=1;arcSize=3;strokeWidth=0.8;" vertex="1" parent="1">
+            <mxGeometry x="1082" y="460" width="105" height="122" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="COLAB Part 3: Data Set Organization" lucidchartObjectId="1bEL05.TaNLx" id="iClK4mFfYUVezQ7BmAFP-25">
+          <mxCell style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=12;fontColor=default;fontStyle=1;align=center;spacing=9;strokeColor=#b391b5;strokeOpacity=100;fillOpacity=100;rounded=1;absoluteArcSize=1;arcSize=9;fillColor=#d1bcd2;strokeWidth=2.3;" vertex="1" parent="1">
+            <mxGeometry x="455" y="790" width="210" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="" lucidchartObjectId="6bELj2S58yJ5" id="iClK4mFfYUVezQ7BmAFP-26">
+          <mxCell style="html=1;jettySize=18;whiteSpace=wrap;fontSize=13;strokeColor=#5E5E5E;strokeWidth=1.5;rounded=1;arcSize=12;edgeStyle=orthogonalEdgeStyle;startArrow=none;endArrow=block;endFill=1;exitX=0.5;exitY=1.019;exitPerimeter=0;entryX=0.5;entryY=-0.019;entryPerimeter=0;" edge="1" parent="1" source="iClK4mFfYUVezQ7BmAFP-16" target="iClK4mFfYUVezQ7BmAFP-25">
+            <mxGeometry width="100" height="100" relative="1" as="geometry">
+              <Array as="points" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
